@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./about.css">
+    <title>About Us</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1{
+            color:burlywood;
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        h2{
+            color:seagreen;
+        }
+
+        h3{
+            color: brown;
+            text-align: center;
+        }
+        h4{
+            color:rgb(192, 214, 23);
+        }
+
+        p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: blueviolet;
+            font-size:large;
+        }
+        .div{
+            width: 20px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        ul.star-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul.star-list li::before {
+            content: "\2605"; /* Unicode character for a solid star (★) */
+            margin-right: 8px; /* Add space between the star and the list item text */
+        }
+
+        /* Main content styles */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        /* Section styles */
+        section {
+            margin-bottom: 20px;
+        }
+
+        /* Team member styles */
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .ad{
+            height: 5px; 
+            background-color: #333; 
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style> 
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Overview Section -->
+        <!-- Team Section -->
+        <section>
+            <h2>Our Team:</h2>
+
+            <!-- Team Member 1 -->
+            <div class="team-member">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/905/596/small/silhouette-of-team-work-photo.jpg" alt="Team Member 1">
+                <div>
+                    <p>Name: xyz</p>
+                    <p>Position: web developer</p>
+                </div>
+            </div>
+        </section>
+        <div class="ad"></div> 
+        <!-- Mission and Vision Section -->
+        <section>
+            <h3>Mission:</h3>
+            <ul class="star-list">
+                <li>Commit to be an innovative and inclusive institution by seeking excellence in teaching, research and knowledge transfer.</li>
+                <li>Pursue research and development and its dissemination to the community at large.</li>
+                <li>Create, sustain and apply learning in an interdisciplinary environment with consideration for ethical, ecological and economic aspects of nation building.</li>
+                <li>Provide knowledge-based technological support and services to the industry in its growth and development.</li>
+                <li>To impart globally applicable skill-sets to students through flexible course offerings and support industry's requirement and inculcate a spirit of new venture creation.</li>
+            </ul>
+        </section>
+        <div class="ad"></div> 
+        <!-- Mission and Vision Section -->
+        <section>
+            <h3>Vision:</h3>
+            <p>To be a value-driven global University, excelling beyond peers and creating professionals of integrity and character having concern and care for society
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Department. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NITK Department</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        p.branch-name {
+            color: rgb(215, 30, 240);
+            font-size: large;
+            text-decoration: none !important;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color:rgb(76, 249, 13);
+            padding: 1em;
+            text-align: center;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #444;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+
+        /* Main content styles */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 5px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+            grid-gap: 20px; /* Spacing between columns and rows */
+        }
+
+        /* Section styles */
+        section {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        section a {
+            text-decoration: none;
+            color: inherit; /* Inherit text color from the parent */
+        }
+
+        section img {
+            max-width: 100%; /* Make images responsive */
+            border-radius: 5px; /* Add border-radius for rounded corners */
+            margin-bottom: 10px; /* Add margin between image and text */
+            cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+        }
+
+        section p.branch-name {
+            font-size: 1.2em; /* Larger font size */
+            font-family: 'Roboto', sans-serif; /* Different font family */
+            margin-top: 5px; /* Adjust top margin */
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color:rgb(76, 249, 13);
+            text-align: center;
+            padding: 1em;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Departments of NITK</h1>
+        <p>Welcome to department's page</p>
+    </header>
+
+   
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Branch Section 1 -->
+        <section style="background: url('branch1-image.jpg')">
+            <a href="branch1-details.html" target="_blank">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.E4zonA4TamzH9jBWAHBuHQAAAA&pid=Api&P=0&h=180" alt="Metallurgical and Materials Engineering">
+                <p class="branch-name">Metallurgical and Materials Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 2 -->
+        <section style="background: url('branch2-image.jpg')">
+            <a href="branch2-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/design-system/department/mech.jpg" alt="Mechanical Engineering">
+                <p class="branch-name">Mechanical Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 3 -->
+        <section style="background: url('branch3-image.jpg')">
+            <a href="branch3-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/design-system/department/som.jpeg" alt="School of Humanities, Social Sciences, and Management">
+                <p class="branch-name">School of Humanities, Social Sciences, and Management</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 4 -->
+        <section style="background: url('branch4-image.jpg')">
+            <a href="branch4-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/design-system/department/mining.jpg" alt="Mining Engineering">
+                <p class="branch-name">Mining Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 5 -->
+        <section style="background: url('branch5-image.jpg')">
+            <a href="branch5-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/design-system/department/cdc.jpeg" alt="Career Development Centre">
+                <p class="branch-name">Career Development Centre</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 6 -->
+        <section style="background: url('branch6-image.jpg')">
+            <a href="branch6-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/images/pictures/4453/content/Physics.JPG" alt="Physics">
+                <p class="branch-name">Physics</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 7 -->
+        <section style="background: url('branch7-image.jpg')">
+            <a href="branch7-details.html" target="_blank">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.w4mvSOj0Uiz5E9Et2RE70wHaFa&pid=Api&P=0&h=180" alt="Computer Science and Engineering">
+                <p class="branch-name">Computer Science and Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 8 -->
+        <section style="background: url('branch8-image.jpg')">
+            <a href="branch8-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/design-system/department/it.jpg" alt="Information Technology">
+                <p class="branch-name">Information Technology</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 9 -->
+        <section style="background: url('branch9-image.jpg')">
+            <a href="branch9-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/design-system/department/ece.jpg" alt="Electronics and Communication Engineering">
+                <p class="branch-name">Electronics and Communication Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 10 -->
+        <section style="background: url('branch10-image.jpg')">
+            <a href="branch10-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/design-system/department/eee.jpg" alt="Electrical and Electronics Engineering">
+                <p class="branch-name">Electrical and Electronics Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 11 -->
+        <section style="background: url('branch11-image.jpg')">
+            <a href="branch11-details.html" target="_blank">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.aTqUbCfeKYJhm5He6xwKIQAAAA&pid=Api&P=0&h=180" alt="Mathematical and Computational Sciences">
+                <p class="branch-name">Mathematical and Computational Sciences</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 12 -->
+        <section style="background: url('branch12-image.jpg')">
+            <a href="branch12-details.html" target="_blank">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.BLUKP5mkfm9mfGsDeWre1QHaFa&pid=Api&P=0&h=180" alt="Civil Engineering">
+                <p class="branch-name">Civil Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 13 -->
+        <section style="background: url('branch13-image.jpg')">
+            <a href="branch13-details.html" target="_blank">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.yCgJIj0LmQVrgxD88pPCWQHaJ4&pid=Api&P=0&h=180" alt="Water Resources & Ocean Engg">
+                <p class="branch-name">Water Resources & Ocean Engg</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 14 -->
+        <section style="background: url('branch14-image.jpg')">
+            <a href="branch14-details.html" target="_blank">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.5tF80jv4kYuYGnnQwdzGHQHaFa&pid=Api&P=0&h=180" alt="Chemical Engineering">
+                <p class="branch-name">Chemical Engineering</p>
+            </a>
+        </section>
+
+        <!-- Branch Section 15 -->
+        <section style="background: url('branch15-image.jpg')">
+            <a href="branch15-details.html" target="_blank">
+                <img src="https://www.nitk.ac.in/images/pictures/2970/content/chemistrynew.jpg" alt="Chemistry">
+                <p class="branch-name">Chemistry</p>
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 NITK Department. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
