@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NITK Department</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        p.branch-name {
+            color: rgb(215, 30, 240);
+            font-size:small;
+            text-decoration: none !important;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333333;
+            text-decoration: none;
+        }
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 2em 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color:#BFFEFE;
+        }
+        header p {
+            font-size: 1.2em;
+            opacity: 0.8;
+            color:#BFFEFE;
+        }
+        /* Navigation styles */
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            background-color:cornflowerblue;
+            margin: 0 1em;
+            font-size: 1.2em;
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border: 2px black dotted;
+            border-radius: 5px;
+        }
+        /* Main content styles */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        /* Section styles */
+        section {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        section a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        section p.branch-name {
+            font-size: 1.2em;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 5px;
+        }
+        .slideshow-container {
+
+            position: relative;
+            max-width:1000px;
+            margin: 0 auto;
+        }
+
+        .mySlides {
+
+            display: none;
+        }
+
+        img{
+
+            width:100%;
+            height:600px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>NITK <br /> Departments</h1>
+        <p lang="hi">NITK विभाग</p>
+        <p>Explore the diverse Academic disciplines and Research areas</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="./about.html">About Us</a>
+        <a href="./programs.html">Programs</a>
+        <a href="./contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides">
+              <img src="https://images.shiksha.com/mediadata/images/articles/1677473367phpKySjXJ.jpeg" alt="NITk">
+            </div>
+          
+            <div class="mySlides">
+              <img src="https://hackverse.nitk.ac.in/blog/assets/images/nitk/aerial-kite-fest.jpg" alt="NITK beach">
+            </div>
+            <div class="mySlides">
+                <img src="https://www.nitk.ac.in/images/b5.jpg">
+            </div>
+            <script>
+                var slideIndex = 0;
+                showSlides();
+              
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                  }
+                  slides[slideIndex - 1].style.display = "block";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+              </script>    
+
+        <section style="background: url('branch2-image.jpg')">
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 NITK. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+
